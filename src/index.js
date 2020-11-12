@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './tailwind.output.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './fonts/CircularStd.css'
+
 
 ReactDOM.render(
   <React.StrictMode>

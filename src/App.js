@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+
+
+import TabList from "./components/TabList"; 
+import CheckInProfileCard from "./components/CheckInProfileCard"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="max-w-4xl mx-auto">
+         <h1 className="text-2xl px-3 py-3 text-indigo-800 font-bold font-display ">Tabs Component</h1>
+         <TabList> 
+       <div label="Check In"> 
+         <CheckInProfileCard/>
+       </div> 
+       <div label="Contact"> 
+         After 'while, <em>Crocodile</em>! 
+       </div> 
+       <div label="Invoices"> 
+         Nothing to see here, this tab is <em>extinct</em>! 
+       </div> 
+       <div label="Files"> 
+         Nothing to see here, this tab is <em>extinct</em>! 
+       </div> 
+       <div label="Check Out"> 
+         Nothing to see here, this tab is <em>extinct</em>! 
+       </div> 
+     </TabList> 
     </div>
   );
 }
