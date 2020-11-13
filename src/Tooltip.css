@@ -2,7 +2,7 @@
   --tooltip-text-color:#3A3D48;
   
   --tooltip-background-color:white;
-    --tooltip-margin: 100px;
+    --tooltip-margin: 150px;
     --tooltip-arrow-size: 6px;
   }
   
@@ -39,7 +39,7 @@
   
   /* Absolute positioning */
   .Tooltip-Tip.top {
-    top: -450%;
+    top: -575%;
   }
   /* CSS border triangles */
   .Tooltip-Tip.top::before {

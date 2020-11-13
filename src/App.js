@@ -2,6 +2,7 @@
 
 import TabList from "./components/TabList"; 
 import CheckInProfileCard from "./components/CheckInProfileCard"
+import ContactProfileCard from "./components/ContactProfileCard";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
          <CheckInProfileCard/>
        </div> 
        <div label="Contact"> 
-         After 'while, <em>Crocodile</em>! 
+         <ContactProfileCard/> 
        </div> 
        <div label="Invoices"> 
          Nothing to see here, this tab is <em>extinct</em>! 
