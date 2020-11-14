@@ -3,6 +3,7 @@
 import TabList from "./components/TabList"; 
 import CheckInProfileCard from "./components/CheckInProfileCard"
 import ContactProfileCard from "./components/ContactProfileCard";
+import InvoiceProfileCard from "./components/InvoiceProfile/InvoiceProfileCard";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
          <ContactProfileCard/> 
        </div> 
        <div label="Invoices"> 
-         Nothing to see here, this tab is <em>extinct</em>! 
+         <InvoiceProfileCard/>
        </div> 
        <div label="Files"> 
          Nothing to see here, this tab is <em>extinct</em>! 
